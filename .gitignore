@@ -1,0 +1,6 @@
+*-bak
+*-cache*
+*-bak*
+_autosave*
+.DS_Store
+.bak
