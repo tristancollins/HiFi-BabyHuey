@@ -2708,16 +2708,16 @@
       (reference "U301") (unit 3) (value "ECC83") (footprint "TristanValves:VALVE-ECC-83-1-TC")
     )
     (path "/00000000-0000-0000-0000-0000607b2d39/00000000-0000-0000-0000-0000607bbbcf"
-      (reference "U302") (unit 1) (value "EL34") (footprint "TristanValves:Octal")
+      (reference "U302") (unit 1) (value "EL34") (footprint "Valve:Valve_Octal")
     )
     (path "/00000000-0000-0000-0000-0000607b2d39/00000000-0000-0000-0000-0000607bd237"
-      (reference "U302") (unit 2) (value "EL34") (footprint "TristanValves:Octal")
+      (reference "U302") (unit 2) (value "EL34") (footprint "Valve:Valve_Octal")
     )
     (path "/00000000-0000-0000-0000-0000607b2d39/00000000-0000-0000-0000-0000607c4bd2"
-      (reference "U303") (unit 1) (value "EL34") (footprint "TristanValves:Octal")
+      (reference "U303") (unit 1) (value "EL34") (footprint "Valve:Valve_Octal")
     )
     (path "/00000000-0000-0000-0000-0000607b2d39/00000000-0000-0000-0000-0000607c020b"
-      (reference "U303") (unit 2) (value "EL34") (footprint "TristanValves:Octal")
+      (reference "U303") (unit 2) (value "EL34") (footprint "Valve:Valve_Octal")
     )
     (path "/00000000-0000-0000-0000-0000608d8459/00000000-0000-0000-0000-0000607e81f3"
       (reference "U401") (unit 1) (value "ECC83") (footprint "TristanValves:VALVE-ECC-83-1-TC")
@@ -2729,16 +2729,16 @@
       (reference "U401") (unit 3) (value "ECC83") (footprint "TristanValves:VALVE-ECC-83-1-TC")
     )
     (path "/00000000-0000-0000-0000-0000608d8459/00000000-0000-0000-0000-0000607bbbcf"
-      (reference "U402") (unit 1) (value "EL34") (footprint "TristanValves:Octal")
+      (reference "U402") (unit 1) (value "EL34") (footprint "Valve:Valve_Octal")
     )
     (path "/00000000-0000-0000-0000-0000608d8459/00000000-0000-0000-0000-0000607bd237"
-      (reference "U402") (unit 2) (value "EL34") (footprint "TristanValves:Octal")
+      (reference "U402") (unit 2) (value "EL34") (footprint "Valve:Valve_Octal")
     )
     (path "/00000000-0000-0000-0000-0000608d8459/00000000-0000-0000-0000-0000607c4bd2"
-      (reference "U403") (unit 1) (value "EL34") (footprint "TristanValves:Octal")
+      (reference "U403") (unit 1) (value "EL34") (footprint "Valve:Valve_Octal")
     )
     (path "/00000000-0000-0000-0000-0000608d8459/00000000-0000-0000-0000-0000607c020b"
-      (reference "U403") (unit 2) (value "EL34") (footprint "TristanValves:Octal")
+      (reference "U403") (unit 2) (value "EL34") (footprint "Valve:Valve_Octal")
     )
   )
 )
