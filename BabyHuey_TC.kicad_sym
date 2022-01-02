@@ -24,12 +24,6 @@
     (property "ki_fp_filters" "VALVE*OCTAL*" (id 7) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "EL34_0_0"
-      (pin no_connect line (at 7.62 -3.81 180) (length 2.54) hide
-        (name "NC" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-    )
     (symbol "EL34_0_1"
       (arc (start -5.08 -2.54) (mid 0 -7.62) (end 5.08 -2.54)
         (stroke (width 0) (type default) (color 0 0 0 0))
@@ -266,6 +260,10 @@
       (pin input line (at -7.62 -1.27 0) (length 2.54)
         (name "G1" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at 7.62 -3.81 180) (length 2.54) hide
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at -2.54 -8.89 90) (length 3.81)
         (name "F1" (effects (font (size 1.27 1.27))))

@@ -930,10 +930,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 935f462d-8b1e-4005-9f1e-17f537ab1756)
   )
-  (text "*use 2x3 terminal blocks" (at 189.23 104.775 0)
-    (effects (font (size 0.9906 0.9906)) (justify left bottom))
-    (uuid 97fe2a5c-4eee-4c7a-9c43-47749b396494)
-  )
   (text "Left Input" (at 137.795 34.925 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 98c78427-acd5-4f90-9ad6-9f61c4809aec)
@@ -953,10 +949,6 @@
   (text "Power Transformer Inputs\nToroidy\nTSTA 0250/001" (at 23.495 42.545 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cb16d05e-318b-4e51-867b-70d791d75bea)
-  )
-  (text "*use 2x3 terminal blocks" (at 189.23 53.975 0)
-    (effects (font (size 0.9906 0.9906)) (justify left bottom))
-    (uuid da25bf79-0abb-4fac-a221-ca5c574dfc29)
   )
   (text "*should really be a bolt\nthrough chassis by IEC inlet"
     (at 128.905 151.13 0)
@@ -1088,7 +1080,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060889620)
     (property "Reference" "C101" (id 0) (at 140.97 184.15 90))
-    (property "Value" "100n" (id 1) (at 140.97 186.055 90))
+    (property "Value" "100n X class" (id 1) (at 140.97 186.055 90))
     (property "Footprint" "Capacitor_THT:C_Rect_L9.0mm_W3.2mm_P7.50mm_MKT" (id 2) (at 144.78 179.3748 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1620,7 +1612,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 0ae82096-0994-4fb0-9a2a-d4ac4804abac)
     )
-    (pin "B+out" input (at 172.085 47.625 0)
+    (pin "B+out" input (at 172.085 50.165 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid e0f06b5c-de63-4833-a591-ca9e19217a35)
     )
@@ -1636,7 +1628,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid d2d7bea6-0c22-495f-8666-323b30e03150)
     )
-    (pin "OT_Common" input (at 172.085 50.165 0)
+    (pin "OT_Common" input (at 172.085 47.625 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 0f324b67-75ef-407f-8dbc-3c1fc5c2abba)
     )
@@ -1676,7 +1668,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 477892a1-722e-4cda-bb6c-fcdb8ba5f93e)
     )
-    (pin "B+out" input (at 172.085 98.425 0)
+    (pin "B+out" input (at 172.085 100.965 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid b09666f9-12f1-4ee9-8877-2292c94258ca)
     )
@@ -1692,7 +1684,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 1199146e-a60b-416a-b503-e77d6d2892f9)
     )
-    (pin "OT_Common" input (at 172.085 100.965 0)
+    (pin "OT_Common" input (at 172.085 98.425 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 997c2f12-73ba-4c01-9ee0-42e37cbab790)
     )
@@ -1858,7 +1850,7 @@
       (reference "#PWR0407") (unit 1) (value "GNDA") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060889620"
-      (reference "C101") (unit 1) (value "100n") (footprint "Capacitor_THT:C_Rect_L9.0mm_W3.2mm_P7.50mm_MKT")
+      (reference "C101") (unit 1) (value "100n X class") (footprint "Capacitor_THT:C_Rect_L9.0mm_W3.2mm_P7.50mm_MKT")
     )
     (path "/00000000-0000-0000-0000-000061151eca/00000000-0000-0000-0000-000061155e86"
       (reference "C201") (unit 1) (value "470u 100V") (footprint "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm")
@@ -2005,10 +1997,10 @@
       (reference "D404") (unit 1) (value "BZX79C10") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061151eca/00000000-0000-0000-0000-000061196393"
-      (reference "HS201") (unit 1) (value "HSE-B20250-040H") (footprint "TristanValves:HSE-B20250-040H")
+      (reference "HS201") (unit 1) (value "HSE-B20250-040H") (footprint "TC Valves:HSE-B20250-040H")
     )
     (path "/00000000-0000-0000-0000-000061151eca/00000000-0000-0000-0000-00006082c86a"
-      (reference "HS202") (unit 1) (value "HSE-B20250-040H") (footprint "TristanValves:HSE-B20250-040H")
+      (reference "HS202") (unit 1) (value "HSE-B20250-040H") (footprint "TC Valves:HSE-B20250-040H")
     )
     (path "/00000000-0000-0000-0000-0000608d04a2"
       (reference "J101") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal")
@@ -2440,46 +2432,46 @@
       (reference "TP405") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Keystone_5005-5009_Compact")
     )
     (path "/00000000-0000-0000-0000-0000607b2d39/00000000-0000-0000-0000-0000607e81f3"
-      (reference "U301") (unit 1) (value "ECC83") (footprint "TristanValves:VALVE-ECC-83-1-TC")
+      (reference "U301") (unit 1) (value "ECC83") (footprint "TC Valves:VALVE-ECC-83-1-TC")
     )
     (path "/00000000-0000-0000-0000-0000607b2d39/00000000-0000-0000-0000-0000607e81ed"
-      (reference "U301") (unit 2) (value "ECC83") (footprint "TristanValves:VALVE-ECC-83-1-TC")
+      (reference "U301") (unit 2) (value "ECC83") (footprint "TC Valves:VALVE-ECC-83-1-TC")
     )
     (path "/00000000-0000-0000-0000-0000607b2d39/00000000-0000-0000-0000-0000608174ba"
-      (reference "U301") (unit 3) (value "ECC83") (footprint "TristanValves:VALVE-ECC-83-1-TC")
+      (reference "U301") (unit 3) (value "ECC83") (footprint "TC Valves:VALVE-ECC-83-1-TC")
     )
     (path "/00000000-0000-0000-0000-0000607b2d39/00000000-0000-0000-0000-0000607bbbcf"
-      (reference "U302") (unit 1) (value "EL34") (footprint "TristanValves:Octal")
+      (reference "U302") (unit 1) (value "EL34") (footprint "TC Valves:Octal")
     )
     (path "/00000000-0000-0000-0000-0000607b2d39/00000000-0000-0000-0000-0000607bd237"
-      (reference "U302") (unit 2) (value "EL34") (footprint "TristanValves:Octal")
+      (reference "U302") (unit 2) (value "EL34") (footprint "TC Valves:Octal")
     )
     (path "/00000000-0000-0000-0000-0000607b2d39/00000000-0000-0000-0000-0000607c4bd2"
-      (reference "U303") (unit 1) (value "EL34") (footprint "TristanValves:Octal")
+      (reference "U303") (unit 1) (value "EL34") (footprint "TC Valves:Octal")
     )
     (path "/00000000-0000-0000-0000-0000607b2d39/00000000-0000-0000-0000-0000607c020b"
-      (reference "U303") (unit 2) (value "EL34") (footprint "TristanValves:Octal")
+      (reference "U303") (unit 2) (value "EL34") (footprint "TC Valves:Octal")
     )
     (path "/00000000-0000-0000-0000-0000608d8459/00000000-0000-0000-0000-0000607e81f3"
-      (reference "U401") (unit 1) (value "ECC83") (footprint "TristanValves:VALVE-ECC-83-1-TC")
+      (reference "U401") (unit 1) (value "ECC83") (footprint "TC Valves:VALVE-ECC-83-1-TC")
     )
     (path "/00000000-0000-0000-0000-0000608d8459/00000000-0000-0000-0000-0000607e81ed"
-      (reference "U401") (unit 2) (value "ECC83") (footprint "TristanValves:VALVE-ECC-83-1-TC")
+      (reference "U401") (unit 2) (value "ECC83") (footprint "TC Valves:VALVE-ECC-83-1-TC")
     )
     (path "/00000000-0000-0000-0000-0000608d8459/00000000-0000-0000-0000-0000608174ba"
-      (reference "U401") (unit 3) (value "ECC83") (footprint "TristanValves:VALVE-ECC-83-1-TC")
+      (reference "U401") (unit 3) (value "ECC83") (footprint "TC Valves:VALVE-ECC-83-1-TC")
     )
     (path "/00000000-0000-0000-0000-0000608d8459/00000000-0000-0000-0000-0000607bbbcf"
-      (reference "U402") (unit 1) (value "EL34") (footprint "TristanValves:Octal")
+      (reference "U402") (unit 1) (value "EL34") (footprint "TC Valves:Octal")
     )
     (path "/00000000-0000-0000-0000-0000608d8459/00000000-0000-0000-0000-0000607bd237"
-      (reference "U402") (unit 2) (value "EL34") (footprint "TristanValves:Octal")
+      (reference "U402") (unit 2) (value "EL34") (footprint "TC Valves:Octal")
     )
     (path "/00000000-0000-0000-0000-0000608d8459/00000000-0000-0000-0000-0000607c4bd2"
-      (reference "U403") (unit 1) (value "EL34") (footprint "TristanValves:Octal")
+      (reference "U403") (unit 1) (value "EL34") (footprint "TC Valves:Octal")
     )
     (path "/00000000-0000-0000-0000-0000608d8459/00000000-0000-0000-0000-0000607c020b"
-      (reference "U403") (unit 2) (value "EL34") (footprint "TristanValves:Octal")
+      (reference "U403") (unit 2) (value "EL34") (footprint "TC Valves:Octal")
     )
   )
 )
