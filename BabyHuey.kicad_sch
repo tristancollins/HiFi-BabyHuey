@@ -1328,7 +1328,7 @@
     (uuid 00000000-0000-0000-0000-0000608e3c64)
     (property "Reference" "J107" (id 0) (at 121.4882 137.795 0))
     (property "Value" "Conn_01x01_Female" (id 1) (at 121.4882 140.1064 0))
-    (property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm" (id 2) (at 118.745 143.51 0)
+    (property "Footprint" "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3mm" (id 2) (at 118.745 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 118.745 143.51 0)
@@ -2021,7 +2021,7 @@
       (reference "J106") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000608e3c64"
-      (reference "J107") (unit 1) (value "Conn_01x01_Female") (footprint "Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm")
+      (reference "J107") (unit 1) (value "Conn_01x01_Female") (footprint "Connector_Wire:SolderWire-1.5sqmm_1x01_D1.7mm_OD3mm")
     )
     (path "/00000000-0000-0000-0000-0000608c89a5"
       (reference "J108") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal")
