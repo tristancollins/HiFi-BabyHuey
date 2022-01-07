@@ -3330,9 +3330,9 @@
     (property "Datasheet" "http://www.r-type.org/pdfs/ecc83.pdf" (id 3) (at 72.39 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "6" (uuid e260b958-e1c5-40d1-a2f3-6370d4a1489f))
-    (pin "7" (uuid bdc26b2a-cc5d-4b8f-834d-fdd908ee9e38))
-    (pin "8" (uuid a923bb61-58c2-4811-9863-8b0e16892b59))
+    (pin "6" (uuid b4ddef27-9e8b-4c9f-ba6b-bbd22b45d51a))
+    (pin "7" (uuid b06d0f18-c7c1-4973-8806-d4fa87df5412))
+    (pin "8" (uuid 937939a7-3d48-498a-98b7-bb48d04ada01))
   )
 
   (symbol (lib_id "Device:D_Zener") (at 131.445 59.055 270)
