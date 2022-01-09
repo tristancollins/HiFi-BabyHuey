@@ -1253,18 +1253,18 @@
     (pin "2" (uuid a8781137-a088-4ca1-bd47-e6a184c69d9e))
   )
 
-  (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 45.085 92.71 0) (mirror y) (unit 1)
+  (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 45.085 95.25 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000608d2b31)
-    (property "Reference" "J105" (id 0) (at 47.1678 87.1982 0))
-    (property "Value" "Screw_Terminal_01x02" (id 1) (at 47.1678 89.5096 0))
-    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" (id 2) (at 45.085 92.71 0)
+    (property "Reference" "J105" (id 0) (at 47.1678 100.7618 0))
+    (property "Value" "Screw_Terminal_01x02" (id 1) (at 47.1678 98.4504 0))
+    (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal" (id 2) (at 45.085 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 45.085 92.71 0)
+    (property "Datasheet" "~" (id 3) (at 45.085 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "mpn" "5441537" (id 4) (at 45.085 92.71 0)
+    (property "mpn" "5441537" (id 4) (at 45.085 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8c339fd8-e0a6-4ffe-91c1-88d3e6edba5b))
@@ -2182,12 +2182,6 @@
     (path "/00000000-0000-0000-0000-000060887b24"
       (reference "R101") (unit 1) (value "10r 5W") (footprint "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P30.48mm")
     )
-    (path "/00000000-0000-0000-0000-000061151eca/00000000-0000-0000-0000-0000608012fa"
-      (reference "R201") (unit 1) (value "100r") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
-    (path "/00000000-0000-0000-0000-000061151eca/00000000-0000-0000-0000-0000608025ce"
-      (reference "R202") (unit 1) (value "100r") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
-    )
     (path "/00000000-0000-0000-0000-000061151eca/00000000-0000-0000-0000-00006119634d"
       (reference "R203") (unit 1) (value "22k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
@@ -2433,6 +2427,9 @@
     )
     (path "/00000000-0000-0000-0000-000061151eca/00000000-0000-0000-0000-000061cb1ac2"
       (reference "RV201") (unit 1) (value "50k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-000061151eca/ccfee726-9431-4296-a038-27382eae58a1"
+      (reference "RV202") (unit 1) (value "470r") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000607b2d39/00000000-0000-0000-0000-000060d8791e"
       (reference "RV301") (unit 1) (value "470r") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical")
