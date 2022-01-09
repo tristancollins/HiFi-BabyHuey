@@ -2182,43 +2182,43 @@
       (reference "R101") (unit 1) (value "10r 5W") (footprint "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P30.48mm")
     )
     (path "/00000000-0000-0000-0000-000061151eca/00000000-0000-0000-0000-00006119634d"
-      (reference "R203") (unit 1) (value "22k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R201") (unit 1) (value "22k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061151eca/00000000-0000-0000-0000-000061196353"
-      (reference "R204") (unit 1) (value "1Meg") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R202") (unit 1) (value "1Meg") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061151eca/00000000-0000-0000-0000-00006082c847"
-      (reference "R205") (unit 1) (value "22k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R203") (unit 1) (value "22k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061151eca/00000000-0000-0000-0000-00006082c84d"
-      (reference "R206") (unit 1) (value "1Meg") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R204") (unit 1) (value "1Meg") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061151eca/00000000-0000-0000-0000-0000611b0fa5"
-      (reference "R207") (unit 1) (value "330k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R205") (unit 1) (value "330k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061151eca/00000000-0000-0000-0000-0000607cce20"
-      (reference "R208") (unit 1) (value "100r") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R206") (unit 1) (value "100r") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061151eca/00000000-0000-0000-0000-00006082c8a9"
-      (reference "R209") (unit 1) (value "100r") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R207") (unit 1) (value "100r") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061151eca/00000000-0000-0000-0000-0000607cd854"
-      (reference "R210") (unit 1) (value "22r") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R208") (unit 1) (value "22r") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061151eca/00000000-0000-0000-0000-00006082c8af"
-      (reference "R211") (unit 1) (value "10r") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R209") (unit 1) (value "10r") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061151eca/00000000-0000-0000-0000-0000611afa0f"
-      (reference "R212") (unit 1) (value "330k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R210") (unit 1) (value "330k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061151eca/00000000-0000-0000-0000-0000611b0282"
-      (reference "R213") (unit 1) (value "47k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R211") (unit 1) (value "47k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061151eca/00000000-0000-0000-0000-00006082c87d"
-      (reference "R214") (unit 1) (value "330k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R212") (unit 1) (value "330k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061151eca/00000000-0000-0000-0000-000061cdd13e"
-      (reference "R215") (unit 1) (value "TBD") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R213") (unit 1) (value "TBD") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000607b2d39/00000000-0000-0000-0000-0000607e8177"
       (reference "R301") (unit 1) (value "DNP") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
@@ -2424,35 +2424,35 @@
     (path "/00000000-0000-0000-0000-0000608d8459/00000000-0000-0000-0000-0000609cca91"
       (reference "R434") (unit 1) (value "10r 2W") (footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal")
     )
-    (path "/00000000-0000-0000-0000-000061151eca/00000000-0000-0000-0000-000061cb1ac2"
-      (reference "RV201") (unit 1) (value "50k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical")
-    )
     (path "/00000000-0000-0000-0000-000061151eca/ccfee726-9431-4296-a038-27382eae58a1"
-      (reference "RV202") (unit 1) (value "470r") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical")
+      (reference "RV201") (unit 1) (value "470r") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical")
     )
-    (path "/00000000-0000-0000-0000-0000607b2d39/00000000-0000-0000-0000-000060d8791e"
-      (reference "RV301") (unit 1) (value "470r") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-0000607b2d39/00000000-0000-0000-0000-0000607e8017"
-      (reference "RV302") (unit 1) (value "50k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-0000607b2d39/00000000-0000-0000-0000-000060cf8398"
-      (reference "RV303") (unit 1) (value "50k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical")
+    (path "/00000000-0000-0000-0000-000061151eca/00000000-0000-0000-0000-000061cb1ac2"
+      (reference "RV202") (unit 1) (value "50k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000607b2d39/3034e429-f9f9-44a2-8240-03a24b63e1fb"
-      (reference "RV304") (unit 1) (value "1k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical")
+      (reference "RV301") (unit 1) (value "1k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical")
     )
-    (path "/00000000-0000-0000-0000-0000608d8459/00000000-0000-0000-0000-000060d8791e"
-      (reference "RV401") (unit 1) (value "470r") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical")
+    (path "/00000000-0000-0000-0000-0000607b2d39/00000000-0000-0000-0000-000060d8791e"
+      (reference "RV302") (unit 1) (value "470r") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical")
     )
-    (path "/00000000-0000-0000-0000-0000608d8459/00000000-0000-0000-0000-0000607e8017"
-      (reference "RV402") (unit 1) (value "50k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical")
+    (path "/00000000-0000-0000-0000-0000607b2d39/00000000-0000-0000-0000-0000607e8017"
+      (reference "RV303") (unit 1) (value "50k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical")
     )
-    (path "/00000000-0000-0000-0000-0000608d8459/00000000-0000-0000-0000-000060cf8398"
-      (reference "RV403") (unit 1) (value "50k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical")
+    (path "/00000000-0000-0000-0000-0000607b2d39/00000000-0000-0000-0000-000060cf8398"
+      (reference "RV304") (unit 1) (value "50k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000608d8459/3034e429-f9f9-44a2-8240-03a24b63e1fb"
-      (reference "RV404") (unit 1) (value "1k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical")
+      (reference "RV401") (unit 1) (value "1k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-0000608d8459/00000000-0000-0000-0000-000060d8791e"
+      (reference "RV402") (unit 1) (value "470r") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-0000608d8459/00000000-0000-0000-0000-0000607e8017"
+      (reference "RV403") (unit 1) (value "50k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-0000608d8459/00000000-0000-0000-0000-000060cf8398"
+      (reference "RV404") (unit 1) (value "50k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical")
     )
     (path "/00000000-0000-0000-0000-000061151eca/00000000-0000-0000-0000-00006119a987"
       (reference "TH201") (unit 1) (value "CL140") (footprint "Varistor:RV_Disc_D12mm_W4.8mm_P7.5mm")
