@@ -1,17 +1,13 @@
 # HiFi-BabyHuey
 An "Engineer's" Baby Huey EL34 PCB
 
-## NOTE
-This is a working repo. There are many updates to come before fabrication.
-
-## To do
-- Confirm component availability
-- Check DRCs based on estimated voltages / currents
-- Check for noise / high-imp traces etc etc
-- Decide on suggested changes
-
 ## BoM
-Is a WiP.
+Included but a WiP
 
 ## Chassis
-Schaeffer / FPE files will also be shared.
+Schaeffer / FPE files included
+
+## Board size
+Width:	329.9460 mm 
+Height:	146.5580 mm 
+Area:	48356.2259 sq. mm
