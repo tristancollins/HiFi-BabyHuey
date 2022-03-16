@@ -62,6 +62,7 @@ Now take a bunch of readings to make sure everything works and sounds as it shou
 #### OVERALL
 
 Voltages:
+
 - Measure V_Bias
 - Measure V_Driver
 - Measure BPlusin
@@ -70,16 +71,19 @@ Voltages:
 - Optional using scope: Measure ripple on V_Bias
 
 Hum:
+
 - Balance heaters using scope
 
 #### CHANNEL 1
 
 Voltages:
+
 - Measure V_neg
 - Measure V_pos
 - Measure B+out
 
 Currents:
+
 - A Measure drop across R334 - divide 10x1000
 - B Measure drop across R333 - divide by 270*1000
 - C Measure drop across R332 - divide by 270*1000
