@@ -86,7 +86,7 @@ Voltages:
 Currents:
 
 - A Measure drop across R334 - divide 10x1000 [?]
-- B Measure drop across R333 - divide by 270*1000 [1.16V/270r = 4/3mA]
+- B Measure drop across R333 - divide by 270*1000 [1.16V/270r = 4.3mA]
 - C Measure drop across R332 - divide by 270*1000 [3V/270r = 11.1mA]
 - D Measure drop across R321 - divide by 390*1000 [0.59V/390r = 1.5mA]
 - E Measure drop across R322 - divide by 390*1000 [0.59V/390r = 1.5mA]
