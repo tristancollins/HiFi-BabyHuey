@@ -2,7 +2,9 @@
 An "Engineer's" Baby Huey EL34 PCB
 
 ## BoM
-Included but a WiP
+Included as excel file
+Toroidy power transformer
+Primary Windings output transformers
 
 ## Chassis
 Schaeffer / FPE files included
