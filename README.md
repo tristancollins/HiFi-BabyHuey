@@ -62,35 +62,35 @@ Now take a bunch of readings to make sure everything works and sounds as it shou
 #### OVERALL
 
 Voltages:
-Measure V_Bias
-Measure V_Driver
-Measure BPlusin
-Measure V_elevation
-Optional using scope: Measure ripple on B+ (100x probes!)
-Optional using scope: Measure ripple on V_Bias
+- Measure V_Bias
+- Measure V_Driver
+- Measure BPlusin
+- Measure V_elevation
+- Optional using scope: Measure ripple on B+ (100x probes!)
+- Optional using scope: Measure ripple on V_Bias
 
 Hum:
-Balance heaters using scope
+- Balance heaters using scope
 
 #### CHANNEL 1
 
 Voltages:
-Measure V_neg
-Measure V_pos
-Measure B+out
+- Measure V_neg
+- Measure V_pos
+- Measure B+out
 
 Currents:
-A Measure drop across R334 - divide 10x1000
-B Measure drop across R333 - divide by 270*1000
-C Measure drop across R332 - divide by 270*1000
-D Measure drop across R321 - divide by 390*1000
-E Measure drop across R322 - divide by 390*1000
-F Measure drop across R308 - divide by 220
-G Measure drop across R309 - divide by 220
-H Measure drop across R305 - divide by 47
-Make F+G = 1.5mA by adjusting RV301
-D & E should = 1.7mA
-H should = V_neg/47k
+- A Measure drop across R334 - divide 10x1000
+- B Measure drop across R333 - divide by 270*1000
+- C Measure drop across R332 - divide by 270*1000
+- D Measure drop across R321 - divide by 390*1000
+- E Measure drop across R322 - divide by 390*1000
+- F Measure drop across R308 - divide by 220
+- G Measure drop across R309 - divide by 220
+- H Measure drop across R305 - divide by 47
+- Make F+G = 1.5mA by adjusting RV301
+- D & E should = 1.7mA
+- H should = V_neg/47k
 
 #### CHANNEL 2
 
