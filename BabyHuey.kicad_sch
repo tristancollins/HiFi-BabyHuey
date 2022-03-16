@@ -876,7 +876,7 @@
     (uuid fb30f9bb-6a0b-4d8a-82b0-266eab794bc6)
   )
 
-  (text "-100V" (at 92.71 54.61 0)
+  (text "-127.5V" (at 92.71 54.61 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0325ec43-0390-4ae2-b055-b1ec6ce17b1c)
   )
@@ -900,7 +900,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4fa10683-33cd-4dcd-8acc-2415cd63c62a)
   )
-  (text "Channel 1 Output Transformer\nPrimary Windings\nPWPP30W6K6\n6.6k Raa 30W"
+  (text "Channel 1 Output Transformer\nPrimary Windings\nPWPP30W6K6\n6.6k Raa 30W 40% UL taps"
     (at 176.53 37.465 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 65134029-dbd2-409a-85a8-13c2a33ff019)
@@ -913,7 +913,7 @@
     (effects (font (size 2.2606 2.2606)) (justify left bottom))
     (uuid 700e8b73-5976-423f-a3f3-ab3d9f3e9760)
   )
-  (text "360V" (at 92.71 51.435 0)
+  (text "400V" (at 92.71 51.435 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7b044939-8c4d-444f-b9e0-a15fcdeb5a86)
   )
@@ -925,7 +925,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8bc2c25a-a1f1-4ce8-b96a-a4f8f4c35079)
   )
-  (text "15V" (at 92.71 57.785 0)
+  (text "16.5V" (at 92.71 57.785 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 935f462d-8b1e-4005-9f1e-17f537ab1756)
   )
@@ -966,7 +966,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f449bd37-cc90-4487-aee6-2a20b8d2843a)
   )
-  (text "Channel 2 Output Transformer\nPrimary Windings\nPWPP30W6K6\n6.6k Raa 30W"
+  (text "Channel 2 Output Transformer\nPrimary Windings\nPWPP30W6K6\n6.6k Raa 30W 40% UL taps"
     (at 176.53 88.265 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fd3499d5-6fd2-49a4-bdb0-109cee899fde)
@@ -2287,7 +2287,7 @@
       (reference "R322") (unit 1) (value "390r") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000607b2d39/00000000-0000-0000-0000-000060e2e82b"
-      (reference "R323") (unit 1) (value "DOT 2W") (footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal")
+      (reference "R323") (unit 1) (value "22k 2W") (footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000607b2d39/00000000-0000-0000-0000-000060dc7e4e"
       (reference "R324") (unit 1) (value "47k 2W") (footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal")
@@ -2389,7 +2389,7 @@
       (reference "R422") (unit 1) (value "390r") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000608d8459/00000000-0000-0000-0000-000060e2e82b"
-      (reference "R423") (unit 1) (value "DOT 2W") (footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal")
+      (reference "R423") (unit 1) (value "22k 2W") (footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-0000608d8459/00000000-0000-0000-0000-000060dc7e4e"
       (reference "R424") (unit 1) (value "47k 2W") (footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal")

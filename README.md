@@ -20,6 +20,7 @@ Area:	48356.2259 sq. mm
 
 ### Step 1
 
+- Attach an 8ohm 50W resistor to each channel's speaker terminal.
 - Adjust the bias pots (RV303 & RV304, RV403 & RV404) counter-clockwise to limit the bias point on the EL34s.
 - Adjust driver current set (RV301 & RV401) to 680r by measuring across the footprint of R302/R402
 - DON'T INSTALL VALVES
@@ -57,41 +58,57 @@ Area:	48356.2259 sq. mm
 
 ### Step 6
 
-Now take a bunch of readings to make sure everything works and sounds as it should. Use the schematic to work out where these points are on the PCB. Compare with the readings I've made. There will be variations due to component tolerances and line voltage variation. +/-10% should be fine.
+Now take a bunch of readings to make sure everything works and sounds as it should. Use the schematic to work out where these points are on the PCB. Compare with the readings I've made [in square brackets]. There will be variations due to component tolerances and line voltage variation. +/-10% should be fine. 
 
 #### OVERALL
 
 Voltages:
-Measure V_Bias
-Measure V_Driver
-Measure BPlusin
-Measure V_elevation
-Optional using scope: Measure ripple on B+ (100x probes!)
-Optional using scope: Measure ripple on V_Bias
+
+- Measure V_Bias [130.6V]
+- Measure V_Driver [17.6V]
+- Measure BPlusin [400V]
+- Measure V_elevation [50V]
+- Optional using scope: Measure ripple on B+ (100x probes!) [TBD]
+- Optional using scope: Measure ripple on V_Bias [TBD]
 
 Hum:
-Balance heaters using scope
+
+- Balance heaters using scope
 
 #### CHANNEL 1
 
 Voltages:
-Measure V_neg
-Measure V_pos
-Measure B+out
+
+- Measure V_neg [127.5V]
+- Measure V_pos [16.4V]
+- Measure B+out [400V]
 
 Currents:
-A Measure drop across R334 - divide 10x1000
-B Measure drop across R333 - divide by 270*1000
-C Measure drop across R332 - divide by 270*1000
-D Measure drop across R321 - divide by 390*1000
-E Measure drop across R322 - divide by 390*1000
-F Measure drop across R308 - divide by 220
-G Measure drop across R309 - divide by 220
-H Measure drop across R305 - divide by 47
-Make F+G = 1.5mA by adjusting RV301
-D & E should = 1.7mA
-H should = V_neg/47k
+
+- A Measure drop across R334 - divide 10x1000 [?]
+- B Measure drop across R333 - divide by 270*1000 [1.16V/270r = 4.3mA]
+- C Measure drop across R332 - divide by 270*1000 [3V/270r = 11.1mA]
+- D Measure drop across R321 - divide by 390*1000 [0.59V/390r = 1.5mA]
+- E Measure drop across R322 - divide by 390*1000 [0.59V/390r = 1.5mA]
+- F Measure drop across R308 - divide by 220 [165V/220k = 0.75mA]
+- G Measure drop across R309 - divide by 220 [165V/220k = 0.75mA]
+- H Measure drop across R305 - divide by 47 [123/7V/47k = 2.63mA]
+- Make F+G = 1.5mA by adjusting RV301
+- D & E should = 1.7mA according to original schematic [1.5mA is close]
+- H should equal V_neg/47k [close]
 
 #### CHANNEL 2
 
 Repeat CHANNEL 1
+
+### Step 7
+
+Go and listen to it.
+
+### Step 8
+
+Tweaking.
+
+The poweramp bias set at 40mA is slightly on the low side according to https://www.vtadiy.com/loadline-calculators/power-stage-calculator/
+
+It could be increased to 50mA.
