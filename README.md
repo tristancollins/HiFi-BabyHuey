@@ -1,21 +1,29 @@
 # HiFi-BabyHuey
+
 An "Engineer's" Baby Huey EL34 PCB
 
 ## BoM
-Included as excel file
-Toroidy power transformer
-Primary Windings output transformers
+
+- Included as excel file
+- Toroidy power transformer
+- Primary Windings output transformers
 
 ## Chassis
+
 Schaeffer / FPE files included
 
 ## Board size
+
 Width:	329.9460 mm 
+
 Height:	146.5580 mm 
+
 Area:	48356.2259 sq. mm
 
 ## Power-up procedure
+
 ### Safety first
+
 **Make sure all grounds are connected back to the IEC earth connection, and then that IEC earth pin is connected to the earth pin on your plug.**
 
 ### Step 1
@@ -26,7 +34,7 @@ Area:	48356.2259 sq. mm
 - DON'T INSTALL VALVES
 - Connect a multimeter to a B+ point (R334) and set to 500Vdc setting.
 - If you have a second multimeter, connect it to a V_Bias point (R332) and set it to 200Vdc.
-- Switch the amplifier on and closely monitor the reading(s) - B+ should be ~430Vdc, V_Bias should be ~125V.
+- Switch the amplifier on and closely monitor the reading(s) - B+ should be ~430Vdc, V_Bias should be ~125Vdc.
 - If so, switch off, unplug and watch the reading(s). B+ should decrease slowly to zero over a few minutes. V_Bias should decrease faster.
 - **If neither of these things happen, you have a problem... Stop, unplug everything and get help.**
 
@@ -36,13 +44,13 @@ Area:	48356.2259 sq. mm
 - It's best to have two or three multimeters for this bit. And even better if you have leads with little hooks on the end.
 - Hook a multimeter to R334 for B+ and to R332 for the bias voltage.
 - Plug the power cable in and switch on and let things settle for 30 secs or so.
-- Watch the multimeters - you should read ~375V and ~-125V
+- Watch the multimeters - you should read ~400Vdc and ~-125Vdc
 - If so, power off.
 
 ### Step 3
 
 - Move the multimeters to the bias test points (TP303 & TP304) for the power valves of channel one.
-- Switch on, let things warm up and then adjust the trim pots to read 0.4V on each multimeter (change the range if needed).
+- Switch on, let things warm up and then adjust the trim pots to read 0.4Vdc on each multimeter (change the range if needed).
 - Once thats done, **KEEPING ONE HAND IN YOUR POCKET**, move the probes to the other channel (TP403 & TP404) and do the same.
 - It will take a few goes going back and forth to get both sides to match.
 
