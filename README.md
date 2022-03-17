@@ -92,7 +92,7 @@ Currents:
 - E Measure drop across R322 - divide by 390*1000 [0.59V/390r = 1.5mA]
 - F Measure drop across R308 - divide by 220 [165V/220k = 0.75mA]
 - G Measure drop across R309 - divide by 220 [165V/220k = 0.75mA]
-- H Measure drop across R305 - divide by 47 [123/7V/47k = 2.63mA]
+- H Measure drop across R305 - divide by 47 [123.7V/47k = 2.63mA]
 - Make F+G = 1.5mA by adjusting RV301
 - D & E should = 1.7mA according to original schematic [1.5mA is close]
 - H should equal V_neg/47k [close]
